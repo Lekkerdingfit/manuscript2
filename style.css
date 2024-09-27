@@ -8,9 +8,10 @@ body {
   max-width: 1100px;
   margin: 12em;
   line-height: 150%;
-  background-size:100%;
+ 
   background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
-  animation: gradient-anim 15s ease infinite;
+  background-size:200% 200%; 
+  animation: gradient-anim 3s ease-in-out infinite;
   height: 100%;
 }
 
