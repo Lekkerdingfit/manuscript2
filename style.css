@@ -1,18 +1,25 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Playfair+Display:ital@0;1&display=swap');
 
-body { 
-	font-size: 17px;
+body {
+	font-family:"Playfair Display";
+	font-weight: 400;
+	font-size: 1.2em;
 	color: rgb(243, 41, 176);
 	width: 200%;
-  max-width: 1100px;
-  margin: 12em;
+  max-width: 80ch;
+  margin: 10em;
   line-height: 150%;
- 
+  margin-left:14em;
+  
+
+
   background: linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
-  background-size:200% 200%; 
+  background-size:200% 200%;
   animation: gradient-anim 3s ease-in-out infinite;
   height: 100%;
+
 }
 
 @keyframes gradient-anim {
@@ -32,49 +39,62 @@ body {
 
 /* body > header,
 footer {
-	
+
 	padding: 3em;
 	margin: 12px;
 
-	
+
 } */
 
 
 h1{
-	font-size: 13em;
-	font-family: .libre-baskerville-bold 
-		font-family: "Libre Baskerville", serif;
-		font-weight: 700;
+	font-size:12em;
+		font-family: "Playfair Display", serif;
+		font-weight: 900;
 		font-style: normal;
-	
-	  
-	line-height: 100%;
-	
-		color: rgb(233, 21, 152);
+		line-height: 100%;
+
+	background: -webkit-linear-gradient(45deg,#d2001a,#7462ff,#f48e21,#23d5ab);
+	  -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
 		/* background-color: black; */
 		padding: 20px;
-		margin: 20px;
-		max-width: 800px;
-		
+		margin-left: -40px;
+		margin-top:35px;
+
+
 	}
 
-	h2{	
+	p{
+		margin-bottom: 1em;
+	}
+
+	h2{
 		font-size: 2em;
-		font-family: Helvetica, sans-serif;
+		/* font-weight: bold; */
+		font-family: "Bowlby One", sans-serif;
 		text-decoration:underline;
-		
-		
+		margin-bottom: 15px;
+		margin-top: 1em;
+
+
 		  }
-		  
+		  h3{
+			font-family:verdana;
+			color:rgb(234, 209, 209);
+			font-size:20px;
+			margin-left:-15em;
+			
+			
+		  }
+
 		  article {
 			color: peru;
-			
-				border: 1px dotted peru;
-				padding: 10px;
-				line-height: 28px;
-				kerning:50px;
+			margin-top:3em;
+
 			}
-		
+
 			pre{
 				text-decoration-line:underline;
 
@@ -85,54 +105,87 @@ h1{
 				color:yellow;
 				font-size: 15px;
 			}
-	
-		
+
+
 
 section{color:rgb(244, 240, 240);
 	opacity: 80%;
+font-style:oblique;
+margin-top:-0.5em;
+margin-left:1em;
 }
 
-span{
-	font-size:12px;
-	letter-spacing: 1em;
-	writing-mode: vertical-rl;
+.davis :hover{
+	color: skyblue;
+	text-decoration: underline;
+
 }
+
+ span{
+	font-size:14px;
+	font-family:verdana;
+	letter-spacing: 1em;
+	color:lightgrey;
+	/* writing-mode: vertical-rl; */
+} 
+.d{font-weight:bold;}
+.y{margin-left:25px;
+letter-spacing: 80px;}
+.n{margin-left:50px;
+letter-spacing:40px;}
+.a{margin-left:80px;
+letter-spacing: 110px;}
+.m{margin-left:140px;}
+.i{margin-left:180px;
+letter-spacing: 250px;}
+.c{margin-left:220px;}
+
+
 
 /* body > header,
 footer {
 	background-color: #050404;
 	background-size: 300%; */
-	
+
+	blockquote{
+		margin-left:5em;
+		font-style:italic;
+		color:rgb(185, 186, 185);
+	}
+
 
 .black{
 	background-color: black;
-	padding: 100px;
-	padding-top: 10px;
+	padding: 80px;
+	/* padding-top: 12px; */
+	margin-right:-12em;
+
+
 	}
 
 	.container{
-		column-count: 2;
-		column-gap: 70px;
-		margin-top: 40px;
+
+		margin-top: 4em;
+		margin-bottom:5em;
 	}
 
 	.box{
-		color:yellowgreen;
+		color:rgb(243, 41, 176);
 	}
 
 	.big{
-		color:aquamarine;
-		font-family:Arial, Helvetica, sans-serif;
-		font-weight:bold;
-		line-height:1.8cap;
+		color:peru;
+		font-family: verdana;
+		line-height:37px;
 		font-size: 1.5em;
 	}
 	.hello{
-		font-family: 'Courier New', Courier, monospace;
+		font-family: Verdana;
 		color:peru;
 		font-size: 20px;
 		border:2px solid;
 		padding: 10px;
+		font-weight:bold;
 	}
 
 	.bye{
@@ -145,10 +198,37 @@ footer {
 		color:rgb(185, 183, 182);
 		font-size: 16px;
 		font-family:'Times New Roman', Times, serif;
-		font-style: italic;
-		
-	
+
+
+
+	}
+	.davis{
+		text-decoration: underline yellow;
 	}
 
+	.response{border: 1px dotted peru;
+
+		padding: 20px;
+		line-height: 29px;
+		kerning:50px;}
+
+		.sticky{
+			font-family:verdana;
+			color:lightgrey;
+			margin-left:-14em;
+			padding-top: 1em;;
+			position: sticky;
+  			top: 0;
+			left:0;
+			padding-left: 5px; 	
+         	border-radius:50%;
+		 	width: 120px;
+         	text-align:center;
+		 	border: 3px dotted lightgrey;
+
+		 
+		}
+
 		
+
 
