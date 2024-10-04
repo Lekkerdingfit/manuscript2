@@ -37,15 +37,6 @@ body {
 }
 
 
-/* body > header,
-footer {
-
-	padding: 3em;
-	margin: 12px;
-
-
-} */
-
 
 h1{
 	font-size:12em;
@@ -140,12 +131,6 @@ letter-spacing: 110px;}
 letter-spacing: 250px;}
 .c{margin-left:220px;}
 
-
-
-/* body > header,
-footer {
-	background-color: #050404;
-	background-size: 300%; */
 
 	blockquote{
 		margin-left:5em;
