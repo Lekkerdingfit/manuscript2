@@ -10,7 +10,7 @@ body {
 	width: 200%;
   max-width: 80ch;
   margin: 10em;
-  line-height: 150%;
+  line-height: 1.7em;
   margin-left:14em;
   
 
@@ -159,7 +159,7 @@ footer {
 	padding: 80px;
 	/* padding-top: 12px; */
 	margin-right:-13em;
-
+max-width:100ch;
 
 	}
 
@@ -209,7 +209,7 @@ footer {
 	.response{border: 1px dotted peru;
 
 		padding: 20px;
-		line-height: 29px;
+		line-height: 1.8em;
 		kerning:50px;}
 
 		.sticky{
