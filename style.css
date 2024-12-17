@@ -69,6 +69,7 @@ h1{
 		background-color:rgb(62, 62, 248);
 		padding-top:5rem;
 		padding-bottom:5rem;
+		
 		transform:rotate(-4deg);
 		filter:drop-shadow(7px 7px 7px rgba(3, 2, 2, 0.25));
 	}
